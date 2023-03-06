@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import "golang-problems/data-structures/linked_list"
 
 func main() {
-	fmt.Println("Hello World")
+
+	//create singlyLinkedList
+	linkedList := linked_list.CreateSinglyLinkedList(10)
+	linkedList.InsertToHeadNode(20)
+	linkedList.PrintLinkedListToScreen()
+
+	linkedList.InsertToHeadNode(30)
+	linkedList.PrintLinkedListToScreen()
+
 }
