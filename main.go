@@ -1,11 +1,13 @@
 package main
 
-import "golang-problems/data-structures/linked_list"
+import (
+	"golang-problems/data-structures/arrays"
+)
 
 func main() {
 
 	//create singlyLinkedList
-	linkedList := linked_list.CreateSinglyLinkedList(10)
+	//linkedList := linked_list.CreateSinglyLinkedList(10)
 
 	/*Add Operations
 
@@ -31,10 +33,13 @@ func main() {
 	linkedList.PrintLinkedListToScreen()
 	*/
 
-	linkedList.InsertToLastNode(20)
-	linkedList.InsertToLastNode(30)
-	linkedList.InsertToLastNode(40)
+	/*	linkedList.InsertToLastNode(20)
+		linkedList.InsertToLastNode(30)
+		linkedList.InsertToLastNode(40)
 
-	linked_list.PrintLinkedListReverseToScreen(linkedList.Head)
+		linked_list.PrintLinkedListReverseToScreen(linkedList.Head)
+	*/
+
+	arrays.ArrayDefinitions()
 
 }
