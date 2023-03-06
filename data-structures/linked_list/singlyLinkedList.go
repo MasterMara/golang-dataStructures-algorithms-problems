@@ -30,6 +30,14 @@ func CreateSinglyLinkedList(headData int) *SinglyLinkedList {
 	return &linkedList
 }
 
+func PrintLinkedListReverseToScreen(node *Node) {
+
+	if node != nil {
+		PrintLinkedListReverseToScreen(node.Next)
+		fmt.Printf("%d\t", node.Data)
+	}
+}
+
 func (l *SinglyLinkedList) PrintLinkedListToScreen() {
 
 	tempNode := l.Head

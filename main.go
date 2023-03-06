@@ -21,6 +21,7 @@ func main() {
 
 	*/
 
+	/* Deletion Operations
 	linkedList.InsertToLastNode(20)
 	linkedList.InsertToLastNode(30)
 	linkedList.InsertToLastNode(40)
@@ -28,5 +29,12 @@ func main() {
 	linkedList.PrintLinkedListToScreen()
 	linkedList.DeleteTargetNode(400)
 	linkedList.PrintLinkedListToScreen()
+	*/
+
+	linkedList.InsertToLastNode(20)
+	linkedList.InsertToLastNode(30)
+	linkedList.InsertToLastNode(40)
+
+	linked_list.PrintLinkedListReverseToScreen(linkedList.Head)
 
 }
