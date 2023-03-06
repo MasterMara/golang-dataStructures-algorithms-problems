@@ -21,3 +21,9 @@ func MapsDefinitions() {
 	fmt.Printf("myMap Len: %v\n", len(myMap))
 
 }
+
+/* Maps
+
+1-)cEven if size is overloaded there is no problem
+
+*/
