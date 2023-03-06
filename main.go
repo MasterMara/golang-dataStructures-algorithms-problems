@@ -1,6 +1,6 @@
 package main
 
-import "golang-problems/data-structures/slices"
+import "golang-problems/data-structures/maps"
 
 func main() {
 
@@ -39,5 +39,6 @@ func main() {
 	*/
 
 	//arrays.ArrayDefinitions()
-	slices.SliceDefinitions()
+	//slices.SliceDefinitions()
+	maps.MapsDefinitions()
 }
