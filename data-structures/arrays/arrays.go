@@ -14,6 +14,13 @@ func ArrayDefinitions() {
 	// 3.Way
 	names := make([]string, 3)
 
+	// 4.Way
+	myMatrix := [3][2]int{
+		{1, 2},
+		{3, 4},
+		{5, 6},
+	}
+
 	for _, age := range ages {
 		fmt.Printf("%d\t", age)
 	}
@@ -31,6 +38,13 @@ func ArrayDefinitions() {
 
 	for _, name := range names {
 		fmt.Printf("%s\t", name)
+	}
+	fmt.Printf("\n")
+
+	for _, row := range myMatrix {
+		for _, item := range row {
+			fmt.Printf("%d\t", item)
+		}
 	}
 
 }
