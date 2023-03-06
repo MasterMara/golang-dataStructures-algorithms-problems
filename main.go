@@ -1,8 +1,6 @@
 package main
 
-import (
-	"golang-problems/data-structures/arrays"
-)
+import "golang-problems/data-structures/slices"
 
 func main() {
 
@@ -40,6 +38,6 @@ func main() {
 		linked_list.PrintLinkedListReverseToScreen(linkedList.Head)
 	*/
 
-	arrays.ArrayDefinitions()
-
+	//arrays.ArrayDefinitions()
+	slices.SliceDefinitions()
 }
